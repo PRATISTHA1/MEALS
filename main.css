@@ -1,0 +1,117 @@
+
+body{
+    display: block;
+    margin: 0px;
+    
+}
+#foot:hover{
+    border: white;
+}
+h1:hover{
+    color: #224234;
+}
+footer {
+background-color:#1c1b18;
+}
+h4{
+    margin-top: 20%;
+    font-size: 30px;
+}
+h3{
+    font-size: 60px;
+}
+h2{
+    margin: 2em 1em;
+}
+#details:hover{
+color:#ffc107;
+
+background-color: white;
+transition-timing-function: 5s;
+transform: translateX(50px);
+
+}
+
+article{
+   display: flex;
+   flex-wrap: wrap;
+
+
+}
+article:hover{
+   color:#e8c564; 
+}
+#last{
+    width: 1006px;
+    height: 200px;
+    background-color: black;
+}
+#heading{
+    width:auto;
+    height: 100px;
+    display:flex;
+}
+
+.row{
+    display: flex;
+}
+.search{
+    justify-content: space-around;
+}
+.collapse navbar-collapse{
+    justify-self: space-between;
+}
+#anchoe{
+    color: white;
+}
+#anchoe:hover{
+    background-color: white;
+    color:black;
+    border-radius: 3em;
+    
+}
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+}
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .card-img-overlay{
+      margin: 0;
+      padding: 0;
+      border: 0;
+  }
+  
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f093fb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+    top: 13px;
+  }
